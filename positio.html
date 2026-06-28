@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Position demo</title>
+    <!-- position property -->
+    <!-- absolute -->
+    <!-- relative -->
+    <!-- fixed -->
+    <!-- sticky -->
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body, html {
+        background: red;
+        height: 100%;
+        width: 100%;
+      }
+      .box {
+        background-color: blue;
+        color: white;
+        padding: 12px;
+        height: 40%;
+        width: 60%;
+        margin-top: 10%;
+      }
+      .box1 {
+        top: 120px;
+      }
+      .box2 {
+        right: 120px;
+        bottom: 120px;
+      }
+      .box3 {
+        right: 120px;
+      }
+      .box4 {
+        /* bottom: 120px; */
+      }
+      .small-box {
+        height: 120px;
+        width: 120px;
+        color: black;
+        background-color: aliceblue;
+        position: relative;
+        bottom: 10px;huihiu
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- <div class="box box1">aradhya1</div>
+    <div class="box box2">aradhya2</div>
+    <div class="box box3">aradhya3</div> -->
+    <div class="box box4">
+      Big box
+      <div class="small-box">123</div>
+    </div>
+  </body>
+</html>

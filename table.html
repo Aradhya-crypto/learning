@@ -1,0 +1,173 @@
+<html>
+
+<head>
+    <title> DEMO</title>
+    <style>
+        * {
+            MARGIN: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>
+        TABLE
+    </h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>
+                    Roll NO.
+                </th>
+                <th>
+                    STUDENTS NAME
+                </th>
+                <th>
+                    SUBJECT
+                </th>
+                <th>
+                    MARKS
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    RAM
+                </td>
+                <td>
+                    Maths
+                </td>
+                <td>
+                    80
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2
+                </td>
+                <td>
+                    RAHUL
+                </td>
+                <td>
+                    Maths
+                </td>
+                <td>
+                    79
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3
+                </td>
+                <td>
+                    ROHAN
+                </td>
+                <td>
+                    Maths </td>
+                <td>
+                    59
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    4
+                </td>
+                <td>
+                    RAVI
+                </td>
+                <td>
+                    Maths
+                </td>
+                <td>
+                    82
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    5
+                </td>
+                <td>
+                    MOHAN
+                </td>
+                <td>
+                    Maths
+                </td>
+                <td>
+                    64
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <br>
+
+    <!--Form-->
+    <h1>FORM</h1>
+
+    <form method="GET" action="table.html">
+        <label for="name">Name</label>
+        <br>
+        <input id="name"  placeholder="name" type="text" required>
+        <br>
+        <br>
+       <lable for="no.">NUMBER</lable>
+       <br>
+        <input min="5" max="12" id="no." placeholder="NO." type="number">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input id="email" placeholder="Email" type="email">
+        <br>
+        <br>
+       <label for="password">PASSWORD</label> 
+       <br>
+       <input id="password" placeholder="password" type="password">
+       <br>
+        <h4 style=" margin-top:15px; ">GENDER</h4>
+        <input id="gender-M" name="Gender" type="radio">
+        <label for="gender-M"> MALE</label>
+        <input id="gender-F" name="Gender" type="radio">
+        <label for="gender-F">FEMALE</label>
+        <br>
+        <h4 style=" margin-top:15px;">FAV. Subject</h4>
+        <input id="maths"name="subject" value="1" type="checkbox"><label for="maths"> MATHS</label>
+        <input name="subject" id="hindi" value="2" type="checkbox"><label for="hindi"> HINDI</label>
+        <input name="subject" id="physics" value="3" type="checkbox"><label for="physics"> PHYSICS</label>
+        <input name="subject" id="english" value="4" type="checkbox"><label for="english"> ENGLISH</label>
+<br>
+<br>
+
+
+<select> 
+ <option>
+    maths
+ </option>   
+ <option>
+   hindi
+ </option>   
+ <option>
+    english
+ </option>   
+</select>
+<br>
+<br>
+<input id="color" type="submit" value="save" ><label for="color" > </label>
+
+<textarea placeholder="ADDRESS" rows="5" cols="20" >
+</textarea>
+
+
+
+
+    </form>
+</body>
+
+</html>
